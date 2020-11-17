@@ -1,0 +1,339 @@
+@import 'fonts.css';
+
+:root{
+    --m-m: 'montserrat-medium';
+    --n-r: 'nunitosans-regular';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 450px;
+    background: #323232;
+    position: relative;
+}
+
+.bg-light {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: var(--m-m);
+    color: #191919;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #007d2f;
+}
+
+.navbar-nav {
+    background: #f8f9fa;
+}
+
+header h1{
+    font-family: var(--m-m);
+    font-size: 61.69px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 65px;
+}
+
+header .headertext{
+    display: flex;
+    justify-content: center;
+}
+
+header p{
+    font-family: var(--n-r);
+    font-size: 22.52px;
+    color: #ffffff9d;
+    text-align: center;
+    max-width: 580px;
+}
+
+/* ----------bir------------- */
+
+.bir{
+    background: #007d2f;
+}
+
+.bir .maincontents{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bir .project{
+    text-align: center;
+}
+
+.bir .project p{
+    font-family: var(--m-m);
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.bir .project .number{
+    font-size: 19px;
+}
+
+/* ------------------ section ------------------- */
+
+.aboutme{
+    max-width: 444px;
+}
+
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.c img{
+    width: 100%;
+}
+
+section h2{
+    font-family: var(--m-m);
+    font-size: 30px;
+    color: #171717;
+    margin-bottom: 40px;
+}
+
+section p{
+    font-family: var(--n-r);
+    font-size: 16px;
+    color: #787878;
+    margin-bottom: 35px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/* ----------------ikki--------------- */
+
+.ikki{
+    height: 396px;
+}
+
+.ikki .ikkimain{
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ikki .ikkimain h1{
+    font-family: var(--m-m);
+    font-weight: 700;
+}
+
+.ikkitext{
+    display: flex;
+    justify-content: center;
+}
+
+.ikkitext p{
+    max-width: 536px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: var(--n-r);
+    font-size: 16px;
+    color: #787878;
+}
+
+.ikkimain a{
+    padding: 22px 42px;
+    background: #007d2f;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--m-m);
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.ikkimain a:hover{
+    background: #06b449;
+}
+
+/* ----------------- footer ------------------ */
+
+footer{
+    background: #141414;
+}   
+
+.futer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 108px;
+    padding-bottom: 93px;
+}
+
+.left h3{
+    font-family: var(--m-m);
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.left p{
+    color: #bcbcbc;
+    font-size: 15px;
+    font-family: var(--n-r);
+}
+
+.middle p{
+    font-family: var(--n-r);
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.right{
+    display: flex;
+}
+
+.right .l{
+    display: flex;
+    flex-direction: column;
+    margin-right: 42px;
+}
+
+.right .l a{
+    font-family: var(--n-r);
+    font-size: 15px;
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+.right .l a:hover{
+    color: #ecebeb;
+}
+
+/* ------------- media --------------------- */
+
+@media (max-width: 991px){
+    .bir .project .info {
+        margin-bottom: 20px;
+    }
+
+    .o{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .right .l {
+        margin-right: 42px;
+    }
+
+    .futer{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px){
+    .bir .maincontents {
+        padding-top: 17px;
+        padding-bottom: 0;
+    }
+
+    .left h3 {
+        font-size: 15px;
+    }
+
+    .left p{
+        font-size: 13px;
+    }
+
+    .middle p{
+    font-size: 13px;
+    text-align: center;
+    }
+
+    .right .l a {
+        font-size: 13px;
+    }
+
+    .right .l {
+        margin-right: 22px;
+    }
+
+    .left {
+        max-width: 173px;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 575px){
+    header h1 {
+        font-size: 41px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:500px){
+    .aboutme {
+        max-width: 300px;
+    }
+
+    .ikki .ikkimain h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:425px){
+    .left h3 {
+        font-size: 10px;
+    }
+
+    .left p{
+        font-size: 8px;
+    }
+
+    .middle p{
+    font-size: 8px;
+    }
+
+    .right .l a {
+        font-size: 10px;
+    }
+
+    .right .l {
+        margin-right: 20px;
+    }
+
+    .left {
+        max-width: 150px;
+    }
+}
+
+/* ----------- end ---------------- */
+
+
